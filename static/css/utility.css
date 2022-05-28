@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Nunito&display=swap');
+
+
+.my-font {
+    font-family: 'Nunito', sans-serif;
+}
+
+.my-bg {
+    background-color: rgba(82, 77, 77, 0.819);
+}
+
+.my-bgBanner {
+    background-color: rgb(125, 148, 148);
+}
+
+.banner h1 {
+    color: black;
+    font-size: 7rem;
+    padding: 0;
+}
+
+.banner h3 {
+    margin-top: -35px;
+    padding-bottom: 16px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3125rem;
+}
+
+.catfact {
+    width: 70%;
+    height: 7rem;
+    margin-top: -30px;
+    font-size: 1.1rem;
+}
+
+.catfact p {
+    margin-top: 0.6875rem;
+    margin-bottom: 0.6875rem;
+}
+
+#facts {
+    margin-top: -1rem;
+    line-height: 111%;
+}
+
+#instagram {
+    background: rgb(195, 44, 34);
+    background: linear-gradient(0deg, rgba(195, 44, 34, 1) 0%, rgba(65, 45, 253, 1) 100%);
+}
+
+#facebook {
+    background: rgb(26, 219, 217);
+    background: linear-gradient(90deg, rgba(26, 219, 217, 1) 0%, rgba(0, 10, 255, 1) 100%);
+}
+
+#tiktok {
+    background-color: #010101;
+}
+
+#pinterest {
+    background-color: #F0002A;
+}
+
+.my-btn {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.my-btn:hover {
+    box-shadow: 0px 0px 18px #888888;
+    transition: ease-in 50ms;
+}
+
+@media screen and (max-width: 412px),
+(max-height: 915px) {
+    .catfact {
+        height: 10rem;
+    }
+
+}
+
+#nullLink {
+    display: none;
+}
